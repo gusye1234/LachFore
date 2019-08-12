@@ -10,15 +10,15 @@ It mainly consist of three part.
 
 1.  calibration part: using the [opencv](https://pypi.org/project/opencv-python/) `findChessboardCorners` function and depth information to fast calbrate camera.
 
-![calibration]("./photos/Screenshot from 2019-08-11 13-14-46.png")
+![calibration](https://github.com/gusye1234/LachFore/blob/master/photos/Screenshot%20from%202019-08-11%2013-14-46.png)
 
 2. QR-code tracking part: i use  [qrcode](https://pypi.org/project/qrcode/) to generate QR-code, and [pyzbar](https://pypi.org/project/pyzbar/) to recognize every frame, then use kalman filter to stabilize the tracking
 
-![qrcode]("./photos/Screenshot from 2019-08-11 13-15-12.png")
+![qrcode](https://github.com/gusye1234/LachFore/blob/master/photos/Screenshot%20from%202019-08-11%2013-15-12.png)
 
 2. NN model part: i use [Segmentation-driven 6D Object Pose Estimation(CVPR 2019)](https://github.com/cvlab-epfl/segmentation-driven-pose) to predict the pose of the objects in RGB image
 
-![main]("./photos/Screenshot from 2019-08-11 13-13-39.png")
+![main](https://github.com/gusye1234/LachFore/blob/master/photos/Screenshot%20from%202019-08-11%2013-13-39.png)
 
 #### Installation
 

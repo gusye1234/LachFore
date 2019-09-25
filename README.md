@@ -24,7 +24,7 @@ It mainly consist of three part.
 
 1. create a python3.6 virtual environment with pip and enter it
 2. enter the LachFore fold, type `pip install -r requirements.txt` 
-3. install realsense [SDK](https://www.intelrealsense.com/developers/)  ,connect to the realsense camera, you can see if it is connected use `realsense-viewer`
+3. install realsense [SDK](https://www.intelrealsense.com/developers/)  ,connect to the realsense camera, you can use `realsense-viewer` to see if it is connected
 4. `git clone https://github.com/cvlab-epfl/segmentation-driven-pose.git`, download pretrained weight following the instruction of the github repo.
 5. `python main.py `  
 

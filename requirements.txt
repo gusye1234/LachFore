@@ -1,6 +1,6 @@
 plyfile==0.7
 mayavi==4.7.1
-numpy==1.16.4
+numpy==1.21
 opencv_python==4.2.0.32
 pykalman==0.9.5
 pyrealsense2==2.28.1.1111
